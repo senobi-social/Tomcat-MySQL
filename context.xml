@@ -1,0 +1,11 @@
+<Context reloadable="true">
+  <Resource
+    name="jdbc/book"
+    auth="Container"
+    type="javax.sql.DataSource"
+    driverClassName="com.mysql.cj.jdbc.Driver"
+    url="jdbc:mysql://localhost:3306/temperature"
+    username="test_user"
+    password="test_pass"
+  />
+</Context>
