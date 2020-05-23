@@ -5,6 +5,7 @@
     type="javax.sql.DataSource"
     driverClassName="com.mysql.cj.jdbc.Driver"
     url="jdbc:mysql://localhost:3306/temperature"
+    connectionProperties = "characterEncoding=UTF-8;serverTimezone=JST;useSSL=false"
     username="test_user"
     password="test_pass"
   />
